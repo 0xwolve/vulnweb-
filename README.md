@@ -1,4 +1,4 @@
-# VulnWeb: Corporate Portal (2012 Edition)
+# VulnWeb: Corporate Portal 
 
 **⚠️ EDUCATIONAL WARNING ⚠️** This application contains **INTENTIONAL, CRITICAL SECURITY VULNERABILITIES**. It is built strictly for educational purposes, security training, and portfolio demonstration. **DO NOT** deploy this code in a production environment. Passwords are intentionally stored in plaintext to demonstrate fundamental flaws.
 
@@ -23,21 +23,13 @@ This initial version includes the following intentional vulnerabilities:
 2. **Insecure Direct Object Reference (IDOR):** Unauthorized access to other users' profiles via the profile ID parameter.
 3. **Reflected Cross-Site Scripting (XSS):** Unsanitized input reflection on the search page.
 
-## Project Structure
-```text
-/
-├── index.php         # Landing page
-├── login.php         # Vulnerable login (SQLi)
-├── register.php      # User registration
-├── dashboard.php     # Authenticated dashboard
-├── profile.php       # Vulnerable profile view (IDOR)
-├── search.php        # Vulnerable search (Reflected XSS)
-├── logout.php        # Session termination
-├── includes/
-│   ├── config.php    # Global configuration
-│   ├── db.php        # SQLite connection
-│   └── setup.php     # DB initialization and demo data
-├── assets/
-│   ├── style.css     # 2012 Corporate UI styling
-│   └── script.js     # Basic frontend logic
-└── README.md
+## Installation & Running the Project
+1- Ensure you have PHP 8+ installed on your machine.
+
+2- Clone this repository: git clone https://github.com/yourusername/vulnweb.git
+
+3- Navigate to the project directory: cd vulnweb
+
+4- Start the PHP built-in server: php -S localhost:8000
+
+5- Visit http://localhost:8000 in your browser.
