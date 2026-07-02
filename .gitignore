@@ -1,0 +1,11 @@
+# Ignore SQLite database files to prevent leaking user data into version control
+*.sqlite
+*.db
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE configuration folders
+.vscode/
+.idea/
