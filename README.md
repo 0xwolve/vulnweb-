@@ -26,7 +26,7 @@ This initial version includes the following intentional vulnerabilities:
 ## Installation & Running the Project
 1- Ensure you have PHP 8+ installed on your machine.
 
-2- Clone this repository: git clone https://github.com/yourusername/vulnweb.git
+2- Clone this repository: git clone https://github.com/0xwolve/vulnweb-.git
 
 3- Navigate to the project directory: cd vulnweb
 
